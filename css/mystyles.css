@@ -1,0 +1,47 @@
+/*This is how you comment on CSS, you can also just use a 
+command slash to comment out code or uncomment the code */
+
+/* This doesn't have a dot in front because the code knows it is the body tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+    background-color: beige;
+    margin: 25px;
+}
+li { font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color:cadetblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.listheadingonscratch {
+    font-weight: bold;
+    font-style: normal;
+}
+.underlineycenter {text-decoration: underline;
+    text-align: justify;
+}
+
+.justify{
+    text-align: center;
+}
+.recolor {color:white;}
+.italisize {font-style: italic;}
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.imagecenter{
+    justify-content: center;
+    display: flex;
+}
